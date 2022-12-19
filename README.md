@@ -22,4 +22,6 @@
 
 
 ## Conclusions
-- 
+- The initial model has an Adjusted R-squared value of 84.5% which seems pretty good. But we tried to reduce the number of independent features using RFE.
+  So we reduced the features from 28 to 15 and then to 10.
+- After redcuing features with high p-value and high VIF we have only 7 features and now VIF values and p-values seem to be in the permissible range.The Adj R-squared is   79.1% using 7 variables. So, this model explains most of the variance without being too complex. So this will be the final model
